@@ -10,24 +10,22 @@ function App() {
 
   return (
     <>
-    
-            <div className="mfeTitle">Micro FrontEnd</div>
-            <div className="subTitle">Using Module Federation</div>
-              
-            <div className="mfeDesc">
-              In this architectural pattern, a React Front End application is divided into two independantly 
-              developed and deployed components
-              </div>
+      <div className="mfeTitle">Micro FrontEnd</div>
+      <div className="subTitle">Using Module Federation</div>
+
+      <div className="mfeDesc">
+        In this architectural pattern, a React Front End application is divided
+        into two independantly developed and deployed components
+      </div>
 
       <div className="container">
-        <div className="cardMain">
+        <div>
           <MyApp1 />
         </div>
 
-        <div className="cardMain">
+        <div>
           <MyApp2 />
         </div>
-        
       </div>
     </>
   );

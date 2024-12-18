@@ -10,8 +10,30 @@
   border-radius: 6px;
 }
 
-.card {
+.cardMain {
   margin:10px;
   max-width: 400px;
-  border:solid 1px green;
+  border:solid 1px silver;
+  border-radius:6px;
+  padding: 2em;
+  /* box-shadow: 2px 3px 6px 1px silver; */
 }
+
+
+
+
+.mfeTitle{
+  font-size:30px;
+  color:blue
+}
+
+.subTitle {
+  font-size:18px;
+  color:green
+}
+
+.mfeDesc {
+ font-size:16px;
+ font-weight: normal;
+}
+

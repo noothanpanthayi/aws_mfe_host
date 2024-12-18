@@ -8,6 +8,7 @@
 .container {
   display:flex;
   border-radius: 6px;
+  justify-content: center;
 }
 
 .cardMain {
@@ -19,17 +20,20 @@
   /* box-shadow: 2px 3px 6px 1px silver; */
 }
 
-
-
+.hspacing {
+  line-height: 40px;
+}
 
 .mfeTitle{
   font-size:30px;
-  color:blue
+  color:blue;
+  font-weight: bold;
 }
 
 .subTitle {
   font-size:18px;
-  color:green
+  color:green;
+  font-weight: bold;
 }
 
 .mfeDesc {

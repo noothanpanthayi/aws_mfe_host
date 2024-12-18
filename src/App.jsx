@@ -9,7 +9,8 @@ function App() {
   // const [count, setCount] = useState(0)
 
   return (
-    <>
+    <> 
+    <div className="hspacing">
       <div className="mfeTitle">Micro FrontEnd</div>
       <div className="subTitle">Using Module Federation</div>
 
@@ -17,7 +18,7 @@ function App() {
         In this architectural pattern, a React Front End application is divided
         into two independantly developed and deployed components
       </div>
-
+      </div>
       <div className="container">
         <div>
           <MyApp1 />

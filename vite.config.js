@@ -20,5 +20,13 @@ export default defineConfig({
     target:"esnext",
     minify:false,
     cssCodeSplit:false
-  }
-})
+  },
+  server: { 
+    cors: { 
+    port:'5173',
+    origin: '*',  
+    methods: ['GET', 'POST', 'OPTIONS'],  
+    allowedHeaders: ['Content-Type', 'Authorization'], 
+     }
+    }
+  });

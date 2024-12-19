@@ -1,5 +1,6 @@
 {
   "name": "aws_mfe_host",
+  "proxy":"https://main.d2vx5up2rayfw4.amplifyapp.com/",
   "private": true,
   "version": "0.0.0",
   "type": "module",

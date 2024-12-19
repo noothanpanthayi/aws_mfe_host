@@ -15,8 +15,8 @@ function App() {
       <div className="subTitle">Using Module Federation</div>
 
       <div className="mfeDesc">
-        In this architectural pattern, a React Front End application is divided
-        into two independantly developed and deployed components
+        React Front End application is divided
+        into two independantly developed and deployed components using Module Federation
       </div>
       </div>
       <div className="container">

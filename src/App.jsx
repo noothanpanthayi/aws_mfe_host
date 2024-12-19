@@ -7,7 +7,7 @@ import MyApp2 from "mfeApp2/App";
 
 function App() {
   // const [count, setCount] = useState(0)
-
+  document.domain="amplifyapp.com";
   return (
     <> 
     <div className="hspacing">

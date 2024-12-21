@@ -9,8 +9,10 @@ export default defineConfig({
     federation({
       name:"app",
       remotes:{
-        mfeApp1:"https://main.d1294rbaaroizz.amplifyapp.com/assets/remoteEntry.js",
-        mfeApp2:"https://main.d6col50lk7dxx.amplifyapp.com/assets/remoteEntry.js",
+        // mfeApp1:"https://main.d1294rbaaroizz.amplifyapp.com/assets/remoteEntry.js",
+        // mfeApp2:"https://main.d6col50lk7dxx.amplifyapp.com/assets/remoteEntry.js",
+        mfeApp1:"http://localhost:6001/assets/remoteEntry.js",
+        mfeApp2:"http://localhost:6002/assets/remoteEntry.js",
       },
       shared:["react", "react-dom"]
      })

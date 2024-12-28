@@ -23,7 +23,7 @@ export default defineConfig({
   },
   server: { 
     cors: { 
-    port:'5173',
+    port:'4173',
     origin: '*',  
     methods: ['GET', 'POST', 'OPTIONS'],  
     allowedHeaders: ['Content-Type', 'Authorization'], 

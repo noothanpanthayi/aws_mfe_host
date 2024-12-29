@@ -39,6 +39,16 @@ export default defineConfig({
         changeOrigin: true,
         secure: false,
       },
+      "/page1/assets/remoteEntry.js": {
+        target: "http://localhost:6001",
+        changeOrigin: true,
+        secure: false,
+      },
+      "/page2/assets/remoteEntry.js": {
+        target: "http://localhost:6002",
+        changeOrigin: true,
+        secure: false,
+      },
     },
   },
 });
